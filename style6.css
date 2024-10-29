@@ -1,0 +1,281 @@
+.static-box{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    position: static;
+}
+
+.relative-box{
+    top: 20px;
+    left: 30px;
+    width: 100px;
+    height: 100px;
+    background-color:darkgoldenrod;
+    position: relative;
+}
+
+.absolute-box{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background-color:seagreen ;
+    width: 100px;
+    height: 100px;
+}
+
+.fixed-box{
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background-color:darkturquoise;
+    position: fixed;
+}
+
+.sticky-box{
+    top: 0px;
+    width: 100px;
+    height: 100px;
+    background-color:brown;
+    position: sticky;
+}
+
+.background-image{
+    width: 100px;
+    height: 100px;
+    background-image: url('jpg_44-2.jpg');
+    background-size: cover;
+}
+
+.background-image-repeat{
+    width: 300px;
+    height: 300px;
+    background-image: url('Screenshot 2024-10-29 204330.png');
+    background-repeat: repeat;
+}
+
+#box1{
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(185, 75, 141);
+    position: absolute;
+}
+
+#box2{
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    background-color:rgb(253, 180, 224);
+    position: absolute;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    background-color:bisque;
+    border: 2px solid black;
+}
+
+.child1{
+    background-color: rgb(176, 94, 47);
+    width: 100px;
+    height: 100px;
+}
+
+.child2{
+    background-color: rgb(176, 94, 47);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.child3{
+    background-color: rgb(176, 94, 47);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background-color:rgb(210, 191, 228);
+    border: 2px solid black;
+}
+
+.child1column{
+    background-color: rgb(132, 60, 171);
+    width: 100px;
+    height: 100px;
+}
+
+.child2column{
+    background-color: rgb(132, 60, 171);
+    width: 100px;
+    height: 100px;
+}
+
+.child3column{
+    background-color: rgb(132, 60, 171);
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    width: 500px;
+    height: 300px;
+    background-color:rgb(196, 227, 169);
+    border: 2px solid black;
+}
+
+.justifychild1{
+    background-color: rgb(33, 100, 4);
+    width: 100px;
+    height: 100px;
+}
+
+.justifychild2{
+    background-color: rgb(33, 100, 4);
+    width: 100px;
+    height: 100px;
+}
+
+.justifychild3{
+    background-color: rgb(33, 100, 4);
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container4{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 700px;
+    height: 300px;
+    background-color:rgb(144, 221, 235);
+    border: 2px solid black;
+}
+
+.wrapchild1{
+    background-color: rgb(47, 63, 169);
+    width: 100px;
+    height: 100px;
+}
+
+.wrapchild2{
+    background-color: rgb(47, 63, 169);
+    width: 100px;
+    height: 100px;
+}
+
+.wrapchild3{
+    background-color: rgb(47, 63, 169);
+    width: 100px;
+    height: 100px;
+}
+
+.wrapchild4{
+    background-color: rgb(47, 63, 169);
+    width: 100px;
+    height: 100px;
+}
+
+.wrapchild5{
+    background-color: rgb(47, 63, 169);
+    width: 100px;
+    height: 100px;
+}
+
+.wrapchild6{
+    background-color: rgb(47, 63, 169);
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container5{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color:rgb(239, 242, 154);
+    border: 2px solid black;
+}
+
+.alignchild1{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.alignchild2{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.alignchild3{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+.flex-container6{
+    display: flex;
+    align-content:space-between;
+    width: 900px;
+    height: 300px;
+    background-color:rgb(236, 138, 99);
+    border: 2px solid black;
+}
+
+.flex-item{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.flex-container7{
+    display: flex;
+    width: 900px;
+    height: 300px;
+    background-color:rgb(210, 208, 203);
+    border: 2px solid black;
+}
+
+.growchild1{
+    background-color: rgb(118, 89, 89);
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+.growchild2{
+    background-color: rgb(118, 89, 89);
+    width: 100px;
+    height: 100px;
+    flex-grow: 2;
+}
+
+.growchild3{
+    background-color: rgb(118, 89, 89);
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
